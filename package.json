@@ -1,5 +1,5 @@
 {
-  "name": "mcp-trello",
+  "name": "mcp-trello-server",
   "version": "0.1.0",
   "description": "MCP server for Trello. Manage boards, lists, cards, labels, and checklists from any AI agent.",
   "type": "module",
@@ -14,7 +14,15 @@
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage"
   },
-  "keywords": ["mcp", "trello", "ai", "agent", "model-context-protocol", "claude", "codex", "cursor"],
+  "keywords": [
+    "mcp",
+    "trello",
+    "model-context-protocol",
+    "ai",
+    "claude",
+    "cursor",
+    "gemini"
+  ],
   "author": "smarthomeo",
   "license": "MIT",
   "engines": {
@@ -29,5 +37,12 @@
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",
     "zod": "^3.23.8"
+  },
+  "repository": {
+    "url": "https://github.com/smarthomeo/mcp-trello"
+  },
+  "homepage": "https://github.com/smarthomeo/mcp-trello#readme",
+  "bugs": {
+    "url": "https://github.com/smarthomeo/mcp-trello/issues"
   }
 }
