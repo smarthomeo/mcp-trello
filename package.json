@@ -1,0 +1,32 @@
+{
+  "name": "mcp-trello",
+  "version": "0.1.0",
+  "description": "MCP server for Trello. Manage boards, lists, cards, labels, and checklists from any AI agent.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "mcp-trello": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "keywords": ["mcp", "trello", "ai", "agent", "model-context-protocol", "claude", "codex", "cursor"],
+  "author": "smarthomeo",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "tsup": "^8.0.0",
+    "vitest": "^2.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
